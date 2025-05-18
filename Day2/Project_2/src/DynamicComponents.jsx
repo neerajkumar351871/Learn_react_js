@@ -6,7 +6,7 @@ function DynamicComponents() {
 let  RollNo=98;
   return (
    <p>
-   The number is {RollNo} and name  is {name}
+   The RollNo is {RollNo} and name  is {name}
    </p> 
   )
   
