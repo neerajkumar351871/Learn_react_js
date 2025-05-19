@@ -8,7 +8,7 @@ function New_map() {
      <ol>
         {/* This is map()  */
             names.map((student)=>
-            <li>{student}</li>
+            <li key={student}>{student}</li>
             )
         }
      </ol>
