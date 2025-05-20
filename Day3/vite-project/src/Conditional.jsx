@@ -1,9 +1,10 @@
 import React from 'react'
+import Propes from './Propes';
 
 function Conditional() {
      let names =['Neeraj','Prince','Anuj',"Arsh",'Aditya']
 
-     
+     let named='neeraj';
    
   return (<>        
   <div>
@@ -18,7 +19,7 @@ function Conditional() {
         }
         
     </div>
-    
+    <Propes light={named}/>
 </div>
     </>
 
