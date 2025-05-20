@@ -1,5 +1,14 @@
-.made{
-    background-color: red;
-    color: yellow
-    ;
-}
+#named
+{
+    background-color: black;
+    height: auto;
+    width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: c;
+ }
+ #size
+ {
+    font-size: 19px;
+    
+ }
