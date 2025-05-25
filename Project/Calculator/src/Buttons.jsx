@@ -7,7 +7,7 @@ function Buttonsjsx({btnClick}) {
           {numbers.map((num, index) =>
           (
               <div key={index} className="col-3">
-                <button type="button" className="btn btn-info w-100 py-3" onClick={()=>btnClick(num)}>
+                <button type="button" className={`btn btn-primary w-100 py-3`} onClick={()=>btnClick(num)}>
                   {num}
                 </button>
               </div>
