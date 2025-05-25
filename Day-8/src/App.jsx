@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import UseRef from './UseRef'
 
 function App() {
   const [data,setdata]=useState("Blank")
@@ -19,11 +20,13 @@ function App() {
 <>
 {/* This is basic code of  form  how can hold the data and print the data  through <p> </p> tag */}
 <form className="con" onSubmit={handlonsubmit}>
+  
 
   <input type="text" name="" id="" onChange={handlonChange}/>
   <p>{data}</p>
 </form>
 
+<UseRef></UseRef>
 </>
   )
 }

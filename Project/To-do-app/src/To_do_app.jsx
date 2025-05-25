@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { RiAddLargeFill } from "react-icons/ri";
+
 
 function To_do_app() {
   const [date, setDate] = useState("");
@@ -44,7 +46,8 @@ function To_do_app() {
           style={{ flex: 1 }}
         />
         <button type="button" onClick={clicked_btn} className="btn btn-success">
-          Add
+          <RiAddLargeFill />
+
         </button>
       </div>
 
