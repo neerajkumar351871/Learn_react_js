@@ -20,6 +20,10 @@ function App()
     Department:'IT(Information Techonlogy)'
   }
   ]
+   let x = 10;
+let result = eval("x + 5");
+
+
   const fruits=['Apple','Mango','Grapes','Orange']
   return(
   <>
@@ -28,7 +32,7 @@ function App()
         Detail={`Student Name: ${Student[1].Name}, Roll_no: ${Student[1].Roll_no}, Student Subject: ${Student[1].Subject}, Department: ${Student[1].Department}`}
       />
   */}
-    <MapMethod fruit={fruits} ></MapMethod> 
+    <MapMethod  Detail={`Student Name: ${Student[0].Name} and Roll_no :${Student[0].Roll_no},Student Subject :${Student[0].Subject} and Department :${Student[0].Department}`} ></MapMethod> 
     <Handling></Handling>   
     </>
   )

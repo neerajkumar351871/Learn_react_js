@@ -1,24 +1,24 @@
-import React from 'react'
+import React from 'react';
 
-function MapMethod({fruit}) {
-    console.log(fruit)
+function MapMethod({ Detail }) {
+  console.log(Detail);
+
   return (
-  <ul className="list-group">
-    <h1>Fruits Table</h1>
-   {
-    fruit.map((itmes,index)=>
-    {
-        return(
-        <>
-        <li key={index} className="list-group-item">{itmes}</li>
-        </>
-        )
-    })
-   }
-  
-
-</ul>
+    <ul className="list-group">
+      <h1>Fruits Table</h1>
+      {
+Detail.map((itms)=>
+{
+  return(
+    <>
+    <h1>{itms}</h1>
+    </>
   )
+})
+
+      }
+    </ul>
+  );
 }
 
-export default MapMethod
+export default MapMethod;
